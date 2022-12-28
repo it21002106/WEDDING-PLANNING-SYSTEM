@@ -1,0 +1,107 @@
+<html>
+
+	<head>
+		<title> Booking : Wedding with Smile </title>
+		
+		<!--add stylesheet-->
+		<link rel="stylesheet" href="styles/home.css">
+		<link rel="stylesheet" href="styles/booking.css">
+		
+		<!--add javascript-->
+		<script src= "js/booking.js" >
+		</script>
+		
+	</head>
+	
+	<body>
+		<!--header-->
+		<div name="header">
+			<img class="logo" src = "images\logo.png"  width="250" height="200" alt="Logo">
+		
+		
+		<h1 class="title"> Wedding with Smile </h1>
+		
+		<div class="register">
+			<input type ="button" onclick="window.location.href = 'login.html'" class="btnlogin" value="Log In" > 
+			<input type ="button" onclick="window.location.href = 'signup.html'" class="btnsignup" value=" Sign Up" >
+		</div>
+		
+		<ul class="menu">
+			<li class="menulist"><a href="contactus.html">Contact Us</a></li>
+			<li class="menulist"><a href="ourpackages.html">Our Services</a></li>
+			<li class="menulist"><a href="home.html">Home</a></li>
+			<!--<li class="menulist"><a href="#">About</a></li>-->
+		</ul>
+		</div>
+		<br>
+		
+		<div class="container" >
+		<form action="booking.php"  class="content" method="post">
+		
+			  <div class="form-inputs">
+				<label for="name">Your Name</label>
+				<input type="text" class="frminput" id="name" name="visitor_name" placeholder="Lukas Mair" pattern=[A-Z\sa-z]{3,20} required>
+			  </div>
+			  
+			  <div class="form-inputs">
+				<label for="email">Your E-mail</label>
+				<input type="email" class="frminput" id="email" name="visitor_email" placeholder="lukas.mair@hotmail.com" required>
+			  </div>
+			  
+			  <div class="form-inputs">
+				<label for="phone">Your Phone</label>
+				<input type="tel" class="frminput" id="phone" name="visitor_phone" placeholder="07X-XXX-XXXX" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+			  </div>
+			  
+			  <div class="form-inputs">
+				<label for="pkg">Selected Package</label>
+				<input type="pkg" class="frminput" id="pkg" name="selected_pkg" placeholder="Package 1" required>
+			  </div>
+			  
+			  <div class="form-inputs">
+				<label for="price">Price</label>
+				<input type="price" class="frminput" id="price" name="pkg_price" placeholder="100,000" required>
+			  </div>
+			  
+			 
+			  <div class="form-inputs">
+				<label for="checkout-date">Check-out Date</label>
+				<input type="date" class="frminput" id="checkout-date" name="checkout" required>
+			  </div>
+			  
+			  <p class="msg"><mark> For book a package you have to pay advance payment of 10% from selected package price.</mark></p>
+			  
+			  </form>
+			  
+			  <div class="center">
+			  <button type="submit" class="btnbook" onclick="window.location.href = 'payment.html'">Book the Package</button>
+			  </div>
+		 </div>
+		
+		
+		
+		
+		
+		<div name="footer">
+			<footer class="footer">
+			<img src="images/logo.png" align ="center" width="120" height="90" alt="Logo">
+			<p>
+				<a href="#">Home</a>
+				&nbsp
+				<a href="#">Terms of Use</a>
+				&nbsp
+				<a href="#">News</a>
+				&nbsp
+				<a href="aboutus.html">About Us</a>
+				&nbsp
+
+			</p>
+
+			<p class="footer-copyright">Wedding with Smile &copy; 2021</p>
+		</div>
+		</footer>
+		
+		
+	</body>
+	
+</html>

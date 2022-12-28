@@ -1,0 +1,117 @@
+.hnympage
+{	
+	height:420px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+fieldset
+{
+	text-align:center;
+	font-size: 35px;
+	border: 2px;
+	background-color : #9DB6CC;
+	opacity:0.1px;
+	border-radius: 20px;
+	margin: auto;
+	width: 85%;
+}
+
+legend
+{
+	font-size:45px;
+	font-family:Calibri;
+	color:#170B3B;
+}
+
+mark 
+{ 
+  background-color:#61C2A2;
+  color: black;
+}
+
+
+
+input[type=submit]
+{
+	background-color:#52688F;
+	border: none;
+	color: white;
+	padding: 17px 28px;
+	text-align: center;
+	font-size: 18px;
+	margin: 6px 5px;
+	transition: 0.45s;
+	border-radius:10px;
+	font-family:Calibri;
+	cursor: pointer;
+}
+
+#submitsl:hover
+{
+	background-color:#1B2E3C;
+}
+
+#submitmld:hover
+{
+	background-color:#1B2E3C;
+}
+
+#submitpar:hover
+{
+	background-color:#1B2E3C;
+}
+
+li.details
+{
+	margin-left:45%;
+	font-size:20px;
+	font-family:Calibri;
+	text-align:left;
+}
+
+h5
+{
+	text-align:center;
+	font-family:Calibri;
+}
+
+#submitmld
+{
+	margin-left:520px;
+}
+
+#submitsl
+{
+	margin-left:520px;
+	
+}
+
+#submitpar
+{
+	margin-left:520px;
+}
+
+.honeyimg
+{
+	width:500px;
+	height:300px;
+}
+
+div.title
+{
+	margin-top: 93px;
+}
+
+#submitsl
+{
+	margin-left:570px;
+	
+}
+
+#submitpar
+{
+	margin-left:570px;
+}

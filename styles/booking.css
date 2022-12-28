@@ -1,0 +1,93 @@
+
+body{
+	background-image:url("../images/background2.jpg");
+	height: 100%;
+	background-position: 0px 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+div.form-inputs {
+  margin: 20px 0;
+}
+
+div.form-inputs.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+label {
+  display: block;
+  font-family: Calibri;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+input.frminput, select, textarea {
+	  width: 100%;
+	  margin-bottom: 20px;
+	  padding: 12px;
+	  border: 1px solid #ccc;
+	  border-radius: 3px;
+	  box-sizing: border-box;
+	  font-family: Calibri;
+	  border-color:lightblue;
+	  
+}
+
+
+button.btnbook {
+  height: 50px;
+  background: #FE2E2E;
+  border: none;
+  color: white;
+  font-size:20px;
+  font-family: Calibri;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+button:hover {
+  color: black;
+  background:#E95670;
+}
+
+mark{
+	background-color:#61C2A2;
+}
+
+
+p.msg{
+	font-family: Calibri;
+	font-size:30px;
+	text-align:center;
+}
+
+
+.content{
+	border-radius: 8px;
+	margin: auto;
+	width: 40%;
+	
+}
+
+.center {
+  margin-left: 670px;
+  position: absolute;
+  
+ 
+}
+/*
+.container
+{
+	background:rgba(255,255,255,.5);
+	border-radius: 6px;
+  background-color: #f2f2f2;
+  padding: 12px;
+  margin: auto;
+  width: 55%;
+}
+*/

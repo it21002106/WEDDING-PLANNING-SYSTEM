@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+	<head>
+		<title> Sign Up </title>
+		
+		<!--add stylesheet-->
+		<link rel="stylesheet" href="styles/home.css">
+		<link rel="stylesheet" href="styles/signup.css">
+		
+		<!--sign up Javascript-->
+		<script src="js/signup.js"> </script>
+		
+		
+	
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_SharedWithUsers msdt:dt="string">IT 1-2 (Kandy 2021-S2) Members</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_SharedWithUsers>
+<mso:SharedWithUsers msdt:dt="string">55;#IT 1-2 (Kandy 2021-S2) Members</mso:SharedWithUsers>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+	
+	<body>
+		<!--header-->
+		<div name="header">
+			<img class="logo" src = "images\logo.png"  width="250" height="200" alt="Logo">
+		
+		
+		<h1 class="title"> Wedding with Smile </h1>
+		
+		<div class="register">
+			<input type ="button" onclick="window.location.href = 'login.html'" class="btnlogin" value="Log In" > 
+		</div>
+		
+		<ul class="menu">
+			<li class="menulist"><a href="contactus.html">Contact Us</a></li>
+			<li class="menulist"><a href="ourpackages.html">Our Services</a></li>
+			<li class="menulist"><a href="home.html">Home</a></li>
+			<!--<li class="menulist"><a href="#">About</a></li>-->
+		</ul>
+		</div>
+		
+					<!-- Form  -->
+		<div class="box" align="left">
+		
+		<form onsubmit="return checkPassword();" action="userprofile.php" method="post">
+		
+			<center> <h2 style="color:#AB0552; font-size: 40px; font-family:Calibri" > Registration </h2></center>
+			
+			
+				<label for="name">Your Name</label>
+				<input type="text" id="name" name="name" required><br><br>
+			  
+			 
+				<label >Birthday</label>
+				<input type="date" id="birthday" name="birthday" required><br><br>
+			 
+			  
+				<label> E-Mail</label>
+				<input type="email" id="email" name="email"  class="email" required><br><br>
+			  
+			  
+			 
+				<label>Phone</label>
+				<input type="text" id="phone" name="number"  class="number" required><br><br>
+			  
+			  
+			  
+				<label >Address</label>
+				<textarea name="address" rows="4" cols="20" required > </textarea><br><br>
+			  
+			  
+			  
+				<label> Enter Passward </label>
+				<input type="Password" id="password"  pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{5,10}"  name="password"  class="password" required><br><br>
+			  
+			  
+				<label> Re Enter Password </label>
+				<input type="Password" id="password1"   name="password1"  class="password" required><br><br>
+				
+				
+				<div style="color: #fff;">
+				<p class="statement"><input type="checkbox" name="agree-statement" id="statement" onclick="return enableButton();"> I Accept Privacy and Policy Term Conditions. </p>
+				</div><br><br>
+				
+				<br><br>
+				
+				<center><input type="submit" name="submit"  value="REGISTER" id="submit"></center>
+		
+		</form>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--center> <h2 style="color:#AB0552; font-size: 40px; font-family:Calibri" > Registration </h2></center>
+				<div class="box">
+				
+				&nbsp <label> Full Name &nbsp &nbsp &nbsp </label>
+				<input type="text" id="name" name="name" / style="margin-center: -80px;" >
+				<br/><br/>
+				
+				&nbsp <label> Birthday  &nbsp &nbsp &nbsp &nbsp </label>
+				<input type="date" id="birthday" name="birthday"/ style="margin-center: -80px;" >
+				<br/> <br/>
+				
+				<label> E-Mail  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </label>
+				<input type="text" id="email" name="email"  class="email"/ style="margin-center: -90px;" >
+				<br/><br>
+
+				&nbsp <label> Phone  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp </label>
+				<input type="text" id="phone" name="number"  class="number"/ style="margin-center: -90px;" >
+				<br/><br/>
+
+				<label> Gender &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </label>
+				<label><input type="radio" name="gender" id="m" class="gender" value="male"> Male </label>
+				<label> &nbsp &nbsp  &nbsp <input type="radio" name="gender" id="f" class="gender" value="female"> Female </label>
+				<br/><br/></br><br>
+
+				<label> Address &nbsp &nbsp </label> &nbsp
+				<textarea name="address" rows="5" cols="40" style="margin-center: -90px;" > </textarea>
+				<br/><br/>
+
+				<label> Enter Passward &nbsp &nbsp </label>
+				<input type="Password" id="password"  pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{5,10}" required name="password"  class="password">
+				<br/> <br/>
+				
+				<label> Re Enter Password </label>
+				<input type="Password" id="password1"   name="password1"  class="password">
+				<br><br><br>
+				
+				<div style="color: #fff;">
+				<p class="statement"><input type="checkbox" name="agree-statement" id="statement"> I Accept Privacy and Policy Term Conditions. </p>
+				
+				</div>
+			
+				<br><br>
+				<center><input type="submit" name="submit" onclick="return valid()" value="REGISTER" id="submit"></center>				
+				<script>
+				
+				
+				</div>
+				<br><br>
+-->
+
+			 
+			  
+		
+
+		<!--footer-->
+		<div name="footer">
+			<footer class="footer">
+			<img src="images/logo.png" align ="center" width="120" height="90" alt="Logo">
+				<p>
+					<a href="#">Home</a>
+					&nbsp
+					<a href="#">Terms of Use</a>
+					&nbsp
+					<a href="#">News</a>
+					&nbsp
+					<a href="aboutus.html">About Us</a>
+					&nbsp
+				</p>
+
+			<p class="footer-copyright"> Wedding with Smile &copy; 2021</p>
+
+		</footer>
+		</div>
+		
+	</body>
+	
+</html>

@@ -1,0 +1,110 @@
+
+/*Register form Styles */
+
+body
+{
+	
+	background-image:url(../images/reg1.jpg);
+}
+/*
+label
+{
+	float:left;
+	font-size: 23px;
+	color: black; 
+	font-family: Calibri;
+}
+
+/*.box 
+{
+
+	border:1px solid #2d416d;
+	box-shadow: 0 1px #5670A4 inset, 0 0 10px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 28px;
+	width: 550px;
+	height: 900px;
+	margin: 30px auto;
+	padding: 30px 30px 0 30px;
+	text-align: center;
+}*/
+/*
+input[type=text]
+{
+	
+	width:70%;
+	padding:12px 15px;
+	margin:10px 0;
+	color:white;
+	border-radius:10px;
+	box-sizing:border-box;
+	color:black;
+	font-size:18px;
+
+
+
+}
+
+input[type=date]
+{
+	
+	width:70%;
+	padding:12px 15px;
+	color:white;
+	margin:10px 0;
+	border-radius:14px;
+	box-sizing:border-box;
+	color:black;
+	font-size:18px;
+
+
+}
+
+.password
+{
+	width:45%;
+	padding:12px 15px;
+	color:white;
+	margin:7px 0;
+	border-radius:10px;
+	box-sizing:border-box;
+	color:black;
+	font-size:18px;
+
+}*/
+
+.statement
+{
+	color:black;
+	font-family:Calibri;
+	font-size:20px;
+}
+
+
+input[type=submit]
+{
+	margin-top:10px;
+	width: 140px;
+	box-sizing: border-box;
+	border-radius: 18px;
+	border: none;
+	
+	font-size: 18px;
+	background-color:#0c695b;
+	color:white;
+    cursor:pointer;
+	background-position: 10px 10px; 
+	padding: 10px 20px 10px 20px;
+	
+}
+#submit:hover
+{
+	background-color:#108c7a;
+}
+
+.box{
+	border-radius: 8px;
+	border:2px;
+	margin: auto;
+	width: 40%;
+	font-family:Calibri;
+}
